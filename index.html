@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swarup's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/photo23.jpg" alt="Swarup Suryawanshi" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Swarup Suryawanshi">Swarup <br> Suryawanshi</h1>
+          <p class="title">
+              <span id="dynamic-profession">Web Developer</span>
+          </p>
+        </div>
+      
+      
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:swarupsuryawanshi4911@gmail.com" class="contact-link">swarupsuryawanshi4911@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919699449392" class="contact-link">+91 9699449392</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Aurangabad, Maharashtra, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/swar-s" class="social-link" >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/swar-s" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://leetcode.com/u/swar-s/" class="social-link">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+            <ul>
+              <li><b>Web Developer</b> specializing in responsive, user-first web applications.</li>
+              <li><b>Cybersecurity Enthusiast</b> with a focus on safeguarding digital environments using modern best practices.</li>
+              <li><b>AI/ML Learner</b>, applying intelligent algorithms to real-world challenges.</li>
+              <li>Strong background in <b>Data Analytics</b> for driving insights and optimizing performance.</li>
+              <li>Passionate about merging creativity and technology to build secure, scalable, and innovative solutions.</li>
+              <li>Always evolving, staying ahead of trends in cybersecurity, AI/ML, and web development.</li>
+            </ul>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/web-dev.svg" alt="Web icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  Crafting responsive, secure, and scalable websites.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ML.svg" alt="Machine Learning icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Applying algorithms to solve complex problems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cyber.svg" alt="Cybersecurity icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cybersecurity</h4>
+
+                <p class="service-item-text">
+                  Protecting systems through best practices and threat mitigation.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-analytics.svg" alt="Data Analytics icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+
+                <p class="service-item-text">
+                  Turning data into actionable insights for smarter decisions.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KIIT University, Bhubaneswar</h4>
+
+              <span>2021 — present</span>
+
+              <p class="timeline-text">
+                ..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jawahar Navodaya Vidyalaya, Aurangabad</h4>
+
+              <span>2013 — 2020</span>
+
+              <p class="timeline-text">
+                ..
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cybersecurity Intern (Palo Alto Networks)</h4>
+
+              <span>July 2024 — September 2024</span>
+
+              <p class="timeline-text">
+                - Studied <b>Network Security Fundamentals</b>, focusing on protocols, IP addressing, subnetting, and endpoint security against malware and phishing.
+                  <br>
+                - Gained knowledge of <b>Cybersecurity Fundamentals</b>, including modern cyber threats, defense 
+                  strategies, and Zero Trust security models.
+                  <br>
+                - Learned <b>Security Operations Fundamentals</b>, focusing on SOAR, threat intelligence automation, and 
+                  endpoint protection with Cortex XDR and XSOAR.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Python Developer Intern (Internpe)</h4>
+
+              <span>December 2023 — January 2024</span>
+
+              <p class="timeline-text">
+                - Gained hands-on experience in data structures, algorithms, and debugging techniques.
+                <br>
+                - Improved problem-solving skills through practical application and real-world challenges.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cybersecurity</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item"></li>
+
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item"></li>
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analytics</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item"></li>
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI and ML</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Frontend Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Full Stack Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Frontend Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Full Stack Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="full stack development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-0.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TripCraft - AI Travel Planner</h3>
+
+                <p class="project-category">Full Stack Development</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://huggingface.co/swars/KIITKovers" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-11.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Voice Conversion Project</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="frontend development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-22.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio</h3>
+
+                <p class="project-category">Frontend Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="frontend development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-33.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Billing Software</h3>
+
+                <p class="project-category">Frontend Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-44.jpeg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Credit Card Fraud Detection</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="frontend development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-55.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Github Profile Finder</h3>
+
+                <p class="project-category">Frontend Development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #Certifications
+      -->
+      <article class="certifications" data-page="certifications">
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+      
+        <section class="certifications-posts">
+          <ul class="certifications-posts-list">
+            <li class="certification-post-item">
+              <a href="https://drive.google.com/file/d/1Y9L0ojUCyPUyLLDJ_zfnZoI4bjWjgjsN/view?usp=drive_link" target="_blank">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/certi-1.jpg" alt="MTA: Security Fundamentals" loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Microsoft</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-06-15">June 15, 2022</time>
+                  </div>
+
+                  <h5 class="h5 certification-item-title">MTA: Security Fundamentals</h5>
+
+                </div>
+
+              </a>
+            </li>
+            <!-- Next Certification -->
+            <li class="certification-post-item">
+              <a href="https://drive.google.com/file/d/1v88XLdfXpte_GgoUeo5m5vFgKlhiTN-K/view?usp=sharing" target="_blank">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/certi-2.png" alt="Cybersecurity Bootcamp" loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Coincent</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-04-30">April 30, 2022</time>
+                  </div>
+
+                  <h5 class="h5 certification-item-title">Cybersecurity Bootcamp</h5>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Next Certification -->
+            <li class="certification-post-item">
+              <a href="https://drive.google.com/file/d/1IQUR9rm4-VCNeP3TW0MnAN0eayUGcU00/view?usp=sharing" target="_blank">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/certi-3.jpg" alt="Introduction to Cloud Computing" loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">IBM</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-05-02">May 02, 2024</time>
+                  </div>
+
+                  <h5 class="h5 certification-item-title">Introduction to Cloud Computing</h5>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Next Certification -->
+            <li class="certification-post-item">
+              <a href="https://drive.google.com/file/d/1sYATWs7kpcOEgDKGT-8RwvlmRlUyXfaR/view?usp=sharing" target="_blank">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/certi-4.jpg" alt="Software Engineering & Agile Development" loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Infosys</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-08-13">August 13, 2024</time>
+                  </div>
+
+                  <h5 class="h5 certification-item-title">Software Engineering & Agile Development</h5>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Next Certification -->
+            <li class="certification-post-item">
+              <a href="https://drive.google.com/file/d/1W6mPf5UTX1t2W7Ev-LMfNe9wBtTiWjoi/view?usp=sharing" target="_blank">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/certi-5.jpg" alt="Data Analytics using Power BI" loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Infosys</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-08-15">August 15, 2024</time>
+                  </div>
+
+                  <h5 class="h5 certification-item-title">Data Analytics using Power BI</h5>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Next Certification -->
+            <li class="certification-post-item">
+              <a href="https://drive.google.com/file/d/108wElSW1EKQP9MYC6Pfyy9yy1OTuEPwl/view?usp=sharing" target="_blank">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/certi-6.jpg" alt="Data Analysis with Python" loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">IBM</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-09-15">Sept. 15, 2024</time>
+                  </div>
+
+                  <h5 class="h5 certification-item-title">Data Analysis with Python</h5>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Next Certification -->
+            <li class="certification-post-item">
+              <a href="https://www.udemy.com/certificate/UC-57e04fb2-4727-4693-84c5-bb94affa2aef/" target="_blank">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/certi-7.jpg" alt="Introduction to Cloud Computing on AWS" loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Udemy</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-03-29">March 29, 2024</time>
+                  </div>
+
+                  <h5 class="h5 certification-item-title">Introduction to Cloud Computing on AWS</h5>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Next Certification -->
+            <li class="certification-post-item">
+              <a href="https://beacon.paloaltonetworks.com/student/award/QwWYW2MWW9qy6qb1k5BUrVJ7" target="_blank">
+
+                <figure class="certification-banner-box">
+                  <img src="./assets/images/certi-8.jpg" alt="Security Operations Fundamentals" loading="lazy">
+                </figure>
+
+                <div class="certification-content">
+
+                  <div class="certification-meta">
+                    <p class="certification-category">Palo Alto Networks</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-08-22">August 22, 2024</time>
+                  </div>
+
+                  <h5 class="h5 certification-item-title">Security Operations Fundamentals</h5>
+
+                </div>
+
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      
+      <!--
+        - #CONTACT
+      -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/mdkonljz" class="form" method="post" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
